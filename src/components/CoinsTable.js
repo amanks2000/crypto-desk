@@ -69,7 +69,7 @@ export default function CoinsTable() {
     setCoins(data);
     setLoading(false);
   };
-
+  //crypto watch
   useEffect(() => {
     fetchCoins();
     // eslint-disable-next-line react-hooks/exhaustive-deps
